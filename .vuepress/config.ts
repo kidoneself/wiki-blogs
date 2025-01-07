@@ -4,7 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
-  base: '/wiki-blogs/',
+  base: '/',
   title: "naspt",
   description: "天天瞎捣鼓",
   bundler: viteBundler(),
@@ -19,25 +19,29 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/docs/theme-reco/": [
+      "/docs/nas/": [
         {
-          text: "module one",
-          children: ["home", "theme"],
+          text: "群晖",
+          children: ["home", "theme","api", "plugin"],
         },
         {
-          text: "module two",
+          text: "UNRAID",
+          children: ["api", "plugin"],
+        },
+        {
+          text: "飞牛",
           children: ["api", "plugin"],
         },
       ],
     },
     navbar: [
-      { text: "Home", link: "/" },
+      { text: "主页", link: "/" },
       { text: "Categories", link: "/categories/reco/1.html" },
       { text: "Tags", link: "/tags/tag1/1.html" },
       {
         text: "Docs",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+          { text: "vuepress-reco", link: "/docs/nas/theme" },
           { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
         ],
       },

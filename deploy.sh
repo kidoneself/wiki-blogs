@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USElsRNAME>.github.io/<REPO>
-git push -f git@github.com:kidoneself/wiki-blogs.git main:gh-pages
+git push -f git@github.com:kidoneself/kidoneself.github.io.git main:gh-pages
 
 cd -
