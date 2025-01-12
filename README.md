@@ -12,8 +12,8 @@ bannerBrand:
   tagline: 每天闲着研究各种nas，观影，docker等各种服务，玩转nas让服务安装更加简单
 #  这里是首页的两个按钮
   buttons:
-    - { text: Guide, link: '/docs/theme-reco/api' }
-    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
+    - { text: Guide, link: '/docs/nas/api' }
+#    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
 #  socialLinks:
 #    - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
 blog:
